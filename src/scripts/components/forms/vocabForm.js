@@ -1,5 +1,5 @@
 const vocabForm = (obj = {}) => {
-    document.querySelector('#form-container').innerHTML = `
+  document.querySelector('#form-container').innerHTML = `
       <form id="submit-vocab-form" class="mb-4">
         <div class="form-group">
           <label for="title">Enter a Term</label>
@@ -19,9 +19,7 @@ const vocabForm = (obj = {}) => {
           id="${obj.firebaseKey ? `update-vocab--${obj.firebaseKey}` : 'submit-vocab'}" class="btn btn-primary">Submit Book
         </button>
       </form>`;
-  
-    // selectTech(`${obj.author_id || ''}`);
-  };
-  
-  export default vocabForm;
-  
+  // selectTech(`${obj.author_id || ''}`);
+};
+
+export default vocabForm;

@@ -4,7 +4,7 @@ import navBar from '../components/navBar';
 import domEvents from '../events/domEvents';
 import navigationEvents from '../events/navigationEvents';
 import { showVocabcards } from '../components/vocab';
-import getCards from '../helpers/data/vocabData';
+import { getCards } from '../helpers/data/vocabData';
 
 // import { showBooks } from '../components/books';
 // import { getCards } from '../helpers/data/bookData';

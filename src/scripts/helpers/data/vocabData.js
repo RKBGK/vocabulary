@@ -9,4 +9,24 @@ const getCards = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
-export default getCards;
+// DELETE Card
+const deletevocab = (firebaseKey) => new Promise((resolve, reject) => {
+  axios.delete(`${dbUrl}/vocab/${firebaseKey}.json`)
+    .then(() => {
+      getCards().then(resolve);
+    })
+    .catch(reject);
+});
+
+const createCard = (cardObj) => new Promise((resolve, reject) => {
+  axios.post(`${dbUrl}/vocab.json`, cardObj)
+    .then((response) => {
+      const body = { firebaseKey: response.data.name };
+      axios.patch(`${dbUrl}/vocab/${response.data.name}.json`, body)
+        .then(() => {
+          getCards().then(resolve);
+        });
+    }).catch((error) => reject(error));
+});
+
+export { getCards, deletevocab, createCard };
