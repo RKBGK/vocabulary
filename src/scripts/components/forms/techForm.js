@@ -9,7 +9,7 @@ const selectTech = (techId) => {
     techArray.forEach((tech) => {
       domString += `
           <option 
-            value="${tech.tech_id}" 
+            value="${tech.tech}" 
             ${techId === tech.tech_id ? 'selected' : ''}>
               ${tech.tech}
           </option>`;

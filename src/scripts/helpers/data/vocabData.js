@@ -24,6 +24,15 @@ const updateCard = (cardObj) => new Promise((resolve, reject) => {
     .then(() => getCards().then(resolve))
     .catch(reject);
 });
+
+const filterCard = (obj) => new Promise((resolve, reject) => {
+  getCards()
+    .then((vCards) => {
+      const filteredcards = vCards.filter((vocab) => vocab.tech_id === obj);
+      resolve(filteredcards);
+    }).catch(reject);
+});
+
 // GET SINGLE CARD
 const getSingleCard = (firebaseKey) => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/vocab/${firebaseKey}.json`)
@@ -47,5 +56,6 @@ export {
   deletevocab,
   createCard,
   updateCard,
-  getSingleCard
+  getSingleCard,
+  filterCard
 };

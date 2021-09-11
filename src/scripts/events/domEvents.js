@@ -54,7 +54,7 @@ const domEvents = () => {
       const cardObject = {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,
-        tech_id: document.querySelector('#techKey').text
+        tech_id: document.querySelector('#techKey').value
       };
 
       createCard(cardObject).then((cardArray) => showVocabcards(cardArray));
