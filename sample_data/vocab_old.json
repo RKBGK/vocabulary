@@ -1,0 +1,45 @@
+{
+    "-MTpclfzY9GLtKDsDYTs": {
+      "firebaseKey": "-MTpclfzY9GLtKDsDYTs",
+      "title": "Listener",
+      "definition": "a method which is called when the user does something",
+      "lang": "Python",
+      "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    },
+    "-MTpclg-BDWqEqyNcYzx": {
+        "firebaseKey": "-MTpclg-BDWqEqyNcYzx",
+        "title": "COMMIT",
+        "definition": "transactional command used to save changes invoked by a transaction to the database.",
+        "lang": "Python",
+        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    },
+    "-MTpclg1yedrHyxkTEvt": {
+        "firebaseKey": "-MTpclg1yedrHyxkTEvt",
+        "title": "Object",
+        "definition": "s a combination of data and procedures working on the available data",
+        "lang": "Python",
+        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    },
+    "-MTpclg3RLFK-14Pu-YM": {
+        "firebaseKey":  "-MTpclg3RLFK-14Pu-YM",
+        "title": "Boolean",
+        "definition": "true or false",
+        "lang": "Python",
+        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    },
+    "-MTpclg6Ax7Lg5iq3tOs": {
+        "firebaseKey": "-MTpclg6Ax7Lg5iq3tOs",
+        "title": "variable",
+        "definition": "container for storing value",
+        "lang": "Python",
+        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    },
+    "-MTpclg4KKMZ4FUaEE2b": {
+        "firebaseKey": "-MTpclg4KKMZ4FUaEE2b",
+        "title": "try catch",
+        "definition": "error handling",
+        "lang": "Python",
+        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    }
+  }
+  
