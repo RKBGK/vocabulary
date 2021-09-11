@@ -1,45 +1,44 @@
 {
-    "-MTpclfzY9GLtKDsDYTs": {
-      "firebaseKey": "-MTpclfzY9GLtKDsDYTs",
-      "title": "Listener",
-      "definition": "a method which is called when the user does something",
-      "lang": "Python",
-      "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    "-MjH53s_wOLkGkqVSxlM": {
+        "definition": "sql",
+        "firebaseKey": "-MjH53s_wOLkGkqVSxlM",
+        "tech_id": "SQL",
+        "title": "sql",
+        "addTime":""
     },
-    "-MTpclg-BDWqEqyNcYzx": {
-        "firebaseKey": "-MTpclg-BDWqEqyNcYzx",
-        "title": "COMMIT",
-        "definition": "transactional command used to save changes invoked by a transaction to the database.",
-        "lang": "Python",
-        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    "-MjH6ogDo6KDkKSRDLIz": {
+        "definition": "java",
+        "firebaseKey": "-MjH6ogDo6KDkKSRDLIz",
+        "tech_id": "Java",
+        "title": "java",
+        "addTime":""
     },
-    "-MTpclg1yedrHyxkTEvt": {
-        "firebaseKey": "-MTpclg1yedrHyxkTEvt",
-        "title": "Object",
-        "definition": "s a combination of data and procedures working on the available data",
-        "lang": "Python",
-        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    "-MjHArRoRzoKSMdQXMaK": {
+        "definition": "cobol",
+        "firebaseKey": "-MjHArRoRzoKSMdQXMaK",
+        "tech_id": "COBOL",
+        "title": "cobol",
+        "addTime":""
     },
-    "-MTpclg3RLFK-14Pu-YM": {
-        "firebaseKey":  "-MTpclg3RLFK-14Pu-YM",
-        "title": "Boolean",
-        "definition": "true or false",
-        "lang": "Python",
-        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    "-MjHF30nLFM-TzjHdgGM": {
+        "definition": "",
+        "firebaseKey": "-MjHF30nLFM-TzjHdgGM",
+        "tech_id": "COBOL",
+        "title": "java",
+        "addTime":""
     },
-    "-MTpclg6Ax7Lg5iq3tOs": {
-        "firebaseKey": "-MTpclg6Ax7Lg5iq3tOs",
-        "title": "variable",
-        "definition": "container for storing value",
-        "lang": "Python",
-        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    "-MjHFk2WZZGV-5qTza_n": {
+        "definition": "",
+        "firebaseKey": "-MjHFk2WZZGV-5qTza_n",
+        "tech_id": "Visual Basic",
+        "title": "vb",
+        "addTime":""
     },
-    "-MTpclg4KKMZ4FUaEE2b": {
-        "firebaseKey": "-MTpclg4KKMZ4FUaEE2b",
-        "title": "try catch",
-        "definition": "error handling",
-        "lang": "Python",
-        "tech_id": "-MjGB-W0oDRt7hJGKSrG"
+    "-MjI7kGPPnsfEADm4K5o": {
+        "definition": "sql",
+        "firebaseKey": "-MjI7kGPPnsfEADm4K5o",
+        "tech_id": "SQL",
+        "title": "sql2",
+        "addTime":""
     }
-  }
-  
+}
