@@ -1,5 +1,6 @@
 import axios from 'axios';
 import firebaseConfig from '../../../api/apiKeys';
+
 // API CALLS FOR VOCAB
 
 const dbUrl = firebaseConfig.databaseURL;
@@ -18,6 +19,18 @@ const deletevocab = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const updateCard = (cardObj) => new Promise((resolve, reject) => {
+  axios.patch(`${dbUrl}/vocab/${cardObj.firebaseKey}.json`, cardObj)
+    .then(() => getCards().then(resolve))
+    .catch(reject);
+});
+// GET SINGLE CARD
+const getSingleCard = (firebaseKey) => new Promise((resolve, reject) => {
+  axios.get(`${dbUrl}/vocab/${firebaseKey}.json`)
+    .then((response) => resolve(response.data))
+    .catch(reject);
+});
+
 const createCard = (cardObj) => new Promise((resolve, reject) => {
   axios.post(`${dbUrl}/vocab.json`, cardObj)
     .then((response) => {
@@ -29,4 +42,10 @@ const createCard = (cardObj) => new Promise((resolve, reject) => {
     }).catch((error) => reject(error));
 });
 
-export { getCards, deletevocab, createCard };
+export {
+  getCards,
+  deletevocab,
+  createCard,
+  updateCard,
+  getSingleCard
+};

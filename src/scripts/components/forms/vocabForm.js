@@ -1,3 +1,5 @@
+import selectTech from './techForm';
+
 const vocabForm = (obj = {}) => {
   document.querySelector('#form-container').innerHTML = `
       <form id="submit-vocab-form" class="mb-4">
@@ -9,17 +11,14 @@ const vocabForm = (obj = {}) => {
         <label for="definition">Definition</label>
         <textarea class="form-control" placeholder="definition" id="definition" style="height: 100px">${obj.definition || ''}</textarea>
       </div>
-        <div class="form-group">
-          <label for="lang">Language/Tech</label>
-          <input type="text" class="form-control" id="lang" placeholder="Lang" value="${obj.lang || ''}" required>
-        </div>
-        <div class="form-group" id="select-author">
+      <div class="form-group" id="select-tech">
         </div>
         <button type="submit" 
-          id="${obj.firebaseKey ? `update-vocab--${obj.firebaseKey}` : 'submit-vocab'}" class="btn btn-primary">Submit Book
+          id="${obj.firebaseKey ? `update-vocab--${obj.firebaseKey}` : 'submit-vocab'}" class="btn btn-primary">Submit Card
         </button>
       </form>`;
-  // selectTech(`${obj.author_id || ''}`);
+
+  selectTech(`${obj.tech_id || ''}`);
 };
 
 export default vocabForm;
